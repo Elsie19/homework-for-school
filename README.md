@@ -1,5 +1,7 @@
 ### My stuff
 
+Make sure you have [Mold](https://github.com/rui314/mold) installed.
+
 To compile everything, run:
 ```bash
 just
