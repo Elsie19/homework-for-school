@@ -1,4 +1,4 @@
-clang-flags := "-O3 -march=native -pipe"
+clang-flags := "-O3 -march=native -pipe -Wall -Werror"
 
 default: _create-output-dir hello-world exact-decimals approx-decimals
 

@@ -6,7 +6,6 @@ using namespace std;
 
 int main(void) {
   double num = 0.0;
-  int frac = 0;
   double tol = 0.000001;
   cout << "Enter number: ";
   cin >> num;
