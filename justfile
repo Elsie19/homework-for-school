@@ -1,6 +1,6 @@
 clang-flags := "-O3 -march=native -pipe -Wall -Werror -fuse-ld=mold"
 
-default: _create-output-dir hello-world exact-decimals approx-decimals
+default: _create-output-dir hello-world exact-decimals approx-decimals time-class
 
 clean:
     @rm -rf out/*
@@ -19,3 +19,6 @@ exact-decimals:
 
 approx-decimals:
     clang++ {{clang-flags}} 03-approx-decimals/approx.cpp -o out/03-approx-decimals
+
+time-class:
+    clang++ {{clang-flags}} 04-time-class/Time_Class.cpp -o out/04-time-class
