@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 class Time {
 public:
 	Time(int input_days, int input_hours, int input_minutes, int input_seconds) {
